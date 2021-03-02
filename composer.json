@@ -1,0 +1,23 @@
+{
+    "name": "sun7pro/magento-generator",
+    "description": "CLI to generate magento module, plugin, observer, config, graphql,...",
+    "type": "magento2-module",
+    "license": "MIT",
+    "version": "1.0.0",
+    "minimum-stability": "dev",
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "php": "^7.0",
+        "magento/framework": "^101.0||^102.0||^103.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Sun7Pro\\Generator\\": ""
+        }
+    }
+}
